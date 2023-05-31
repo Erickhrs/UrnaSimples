@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Urna</title>
+    <link rel="stylesheet" href="/urna.css">
+</head>
+
+<body>
+    <div class="urnabody">
+        <div class="urnascreen">
+            <div class="starting">
+                <div id="data-hora"></div>
+                <h2 id="s1">TREINAMENTO</h2>
+                <h1 id="s2">Início da votação</h1>
+                <h1 id="s3">Identifique o eleitor</h1>
+            </div>
+            <div class="governadorscreen">
+                <h1 id="title">Governador</h1>
+                <div class="blocks">
+                    <div id="block1"></div>
+                    <div id="block2"></div>
+                </div>
+                <div id="data"></div>
+                <div id="infobuttons">
+                    <p>Aperte a tecla:</p> 
+                    <p>CONFIRMA para CONFIRMAR este voto </p>
+                    <P>CORRIGE para REINICIAR este voto</p>
+                </div>
+            </div>
+        </div>
+        <div class="urnapanel">
+            <h3 class="logojust">Justiça Eleitoral</h3>
+            <div class="teclas">
+                <button id="b1" class="button">1</button>
+                <button id="b2" class="button">2</button>
+                <button id="b3" class="button">3</button>
+                <br>
+                <button id="b4" class="button">4</button>
+                <button id="b5" class="button">5</button>
+                <button id="b6" class="button">6</button>
+                <br>
+                <button id="b7" class="button">7</button>
+                <button id="b8" class="button">8</button>
+                <button id="b9" class="button">9</button>
+                <br>
+                <button id="b0" class="button">0</button>
+                <br>
+            </div>
+            <button id="bb" class="buttonb">BRANCO</button>
+            <button id="bc" class="buttonb">CORRIGE</button>
+            <button id="bcon" class="buttonb">CONFIRMA</button>
+
+        </div>
+    </div>
+
+<button id="showresults">Mostrar resultados</button>
+<button id="voteagain">Votar novamente</button>
+
+
+
+
+
+
+    <script src="/urna.js"></script>
+</body>
+
+</html>
